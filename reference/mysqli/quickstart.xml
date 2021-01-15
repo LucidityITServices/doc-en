@@ -1069,19 +1069,24 @@ array(2) {
     </thead>
     <tbody>
      <row>
-      <entry>Client-server round trips, SELECT, single execution</entry>
-      <entry>2</entry>
-      <entry>1</entry>
-     </row>
-     <row>
       <entry>Statement string transferred from client to server</entry>
       <entry>1</entry>
       <entry>1</entry>
      </row>
      <row>
-      <entry>Client-server round trips, SELECT, repeated (n) execution</entry>
+      <entry>Number of client-server round trips for N executions of a SELECT statement</entry>
       <entry>1 + n</entry>
       <entry>n</entry>
+     </row>
+     <row>
+      <entry>Number of client-server round trips for N executions of an INSERT statement</entry>
+      <entry></entry>
+      <entry></entry>
+     </row>
+     <row>
+      <entry>Number of client-server round trips for N executions of an UPDATE statement</entry>
+      <entry></entry>
+      <entry></entry>
      </row>
      <row>
       <entry>Statement string transferred from client to server</entry>
